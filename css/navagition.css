@@ -1,0 +1,245 @@
+@media (max-width: 982px) {
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 60px;
+    right: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  a {
+    font-size: 20px;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: #9987e6;
+  }
+  #check:checked ~ ul {
+    right: 0;
+  }
+  .loging-icon button {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 60px;
+    right: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  a {
+    font-size: 20px;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: #9987e6;
+  }
+  #check:checked ~ ul {
+    right: 0;
+  }
+  .loging-icon button {
+    margin-top: 20px;
+  }
+}
+
+/* media query   */
+@media screen and (max-width: 992px) {
+  .header-section {
+    display: flex;
+  }
+  .header-text {
+    width: 240px;
+    height: auto;
+  }
+  .header-text h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .header-img img {
+    width: 400px;
+  }
+  header:hover .header-img img {
+    margin-right: 0;
+  }
+  .all-bloges {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    width: 880px;
+    margin-right: -25px;
+  }
+  .all-bloges .blog {
+    width: 250px;
+  }
+  .all-bloges .blog img {
+    width: 240px;
+    height: auto;
+  }
+  .blog-text {
+    height: 260px;
+    text-align: justify;
+  }
+  .high-light-text h1 {
+    font-size: 35px;
+    font-weight: 400;
+    color: #0a0826;
+  }
+  .high-lights .high-light-img img {
+    width: 400px;
+    height: auto;
+    margin-top: 28px;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .header-section {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 365px;
+  }
+  .header-text {
+    width: 245px;
+    float: left;
+    margin-top: 40px;
+  }
+  .header-text button {
+    background: rgb(224, 44, 109);
+    padding: 7px 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+  }
+  .header-img img {
+    width: 327px;
+    float: right;
+    margin-top: 32px;
+    height: 300px;
+  }
+  .all-bloges {
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+    width: 600px;
+    margin-right: -25px;
+  }
+  .blog-text {
+    height: 264px;
+  }
+  .high-light-text h1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #0a0826;
+  }
+  .high-light-text p {
+    font-size: 12px;
+  }
+  .high-lights .high-light-img img {
+    width: 300px;
+    height: auto;
+    margin-top: 28px;
+  }
+}
+@media screen and (max-width: 360px) {
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 60px;
+    right: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  a {
+    font-size: 20px;
+  }
+  .header-text {
+    width: 300px;
+  }
+  .header-text h1 {
+    font-size: 30px;
+  }
+  .header-img img {
+    width: 300px;
+  }
+  .all-bloges {
+    display: block;
+    width: 360px;
+    margin-top: 10px;
+  }
+  .blog {
+    margin: 20px auto;
+  }
+  .high-lights {
+    width: 360px;
+    display: block;
+    margin-top: 165px;
+  }
+  .high-light-text {
+    width: 328px;
+  }
+  .high-light-text h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .high-light-img {
+    width: 328px;
+    margin: auto;
+    display: block;
+  }
+  .high-light-img img {
+    width: 300px;
+  }
+  footer {
+    width: 360px;
+    display: block;
+    margin: 20px auto;
+  }
+  .footer-banner img {
+    width: 250px;
+  }
+  .footer-social {
+    width: 170px;
+    display: block;
+    margin: auto;
+  }
+  .footer-social i {
+    font-size: 14px;
+  }
+  .copyright p {
+    text-align: center;
+  }
+}
